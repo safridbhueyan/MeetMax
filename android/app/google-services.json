@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996990915600",
+    "project_id": "meetmax-4eb46",
+    "storage_bucket": "meetmax-4eb46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996990915600:android:fd5ee6640066ef8649e695",
+        "android_client_info": {
+          "package_name": "com.example.meetmax"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA432h9DGV7SWp_vNulrcY-8uzTSAoKfOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

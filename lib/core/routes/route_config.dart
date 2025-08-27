@@ -67,20 +67,20 @@ class RouteConfig {
         },
       ),
 
-      //    GoRoute(
-      //     name: RouteName.historyScreen,
-      //     path: RouteName.historyScreen,
-      //     pageBuilder: (context, state) {
-      //       return const MaterialPage(child: HistoryScreen());
-      //     },
-      //   ),
-      //       GoRoute(
-      //         name: RouteName.paymentSelection,
-      //         path: RouteName.paymentSelection,
-      //         pageBuilder: (context, state) {
-      //           return const MaterialPage(child: PaymentSelection());
-      //         },
-      //       ),
+      GoRoute(
+        name: RouteName.signInScreen,
+        path: RouteName.signInScreen,
+        pageBuilder: (context, state) {
+          return const MaterialPage(child: SignInScreen());
+        },
+      ),
+      GoRoute(
+        name: RouteName.forgetpassScreen,
+        path: RouteName.forgetpassScreen,
+        pageBuilder: (context, state) {
+          return const MaterialPage(child: ForgetpassScreen());
+        },
+      ),
       //       GoRoute(
       //         name: RouteName.paymentIntro,
       //         path: RouteName.paymentIntro,
